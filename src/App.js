@@ -5,6 +5,7 @@ import Spamalot from "./components/Spamalot";
 import NavBar from "./components/NavBar";
 import Checkout from "./components/Checkout";
 import Menu from "./components/Menu";
+import Item from "./components/Item";
 
 export function App() {
   return (
@@ -26,7 +27,11 @@ export function App() {
       <div className="ex-space">
         <h4 className="ex-title">Exercise 4</h4>
         <div className="exercise" id="ex-4">
-          {/* your code here... */}
+          <NavBar />
+          <Menu />
+          <Item />
+          <Checkout />
+          <Item />
         </div>
       </div>
     </div>

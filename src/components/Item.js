@@ -1,6 +1,11 @@
-import React from 'react'
+import React from "react";
 
+const Item = () => {
+  return (
+    <div>
+      <h1>Item</h1>
+    </div>
+  );
+};
 
-const Item = () => {}
-
-export default Item
+export default Item;
