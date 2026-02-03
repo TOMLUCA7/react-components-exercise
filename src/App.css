@@ -2,6 +2,12 @@ body{
   background-color: #E4E9EF;
 }
 
+#ex-2{
+      display: grid;
+      grid-template-columns: repeat(10, 1fr);
+      gap: 10px;
+    }
+
 .ex-space{
   margin: 4vh;
   padding: 2vh;
